@@ -1,11 +1,16 @@
 .timer {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     width: 100%;
 }
 
+h2 {
+    padding: 0px 20px;
+}
+
 span {
-    padding: 0.2rem;
+    padding: 0 0.1rem;
 }
 
 @media only screen and (max-width: 400px) {
