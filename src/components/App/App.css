@@ -1,7 +1,7 @@
 .App {
   text-align: center;
   font-size: 2rem;
-  margin: 20rem auto;
+  margin: 10rem auto;
 }
 
 h1 {
@@ -18,4 +18,8 @@ main {
   margin: 0 auto;
 }
 
-
+@media only screen and (max-width: 400px) {
+  .App {
+    margin: 5rem auto;
+  }
+}
