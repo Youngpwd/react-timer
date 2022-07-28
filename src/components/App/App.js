@@ -46,6 +46,7 @@ function App() {
             stop={timerStop}
             reset={timerReset}
             timerOn={timerOn}
+            time={time}
           />
         </div>
       </main>

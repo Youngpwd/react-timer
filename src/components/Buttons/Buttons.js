@@ -1,21 +1,13 @@
 import React from "react";
 import "./Buttons.css";
 
-export function Buttons({ start, stop, reset, timerOn }) {
+export function Buttons({ start, stop, reset, timerOn, time }) {
   return (
     <div className="buttons">
-      <button disabled={timerOn} onClick={start}>
-        Start
-      </button>
-      <button disabled={!timerOn} onClick={stop}>
-        Stop
-      </button>
-      <button disabled={!timerOn} onClick={start}>
-        Resume
-      </button>
-      <button disabled={!timerOn} onClick={reset}>
-        Reset
-      </button>
+      {!timerOn && time === 0 && <button onClick={start}>Start</button>}
+      {timerOn && <button onClick={stop}>Stop</button>}
+      {!timerOn && <button onClick={start}>Resume</button>}
+      {!timerOn && <button onClick={reset}>Reset</button>}
     </div>
   );
 }
