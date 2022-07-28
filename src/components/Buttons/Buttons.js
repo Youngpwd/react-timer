@@ -1,5 +1,4 @@
 import React from "react";
-import "./Buttons.css";
 
 export function Buttons({ start, stop, reset, timerOn, time }) {
   return (

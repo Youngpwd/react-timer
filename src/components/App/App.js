@@ -36,7 +36,7 @@ function App() {
   };
 
   return (
-    <div className="App">
+    <div className="Timers">
       <main>
         <h1>Timer</h1>
         <div className="timer-section">

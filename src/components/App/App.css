@@ -1,35 +1,34 @@
-.App {
-  text-align: center;
-  font-size: 2rem;
-  margin: 10rem auto;
-}
-
-h1 {
-  margin: 0;
-}
-
-main {
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  width: 80%;
-  height: auto;
-  padding: 2rem;
+.Timers {
+  width: 180px;
   margin: 0 auto;
+  text-align: center;
 }
 
-.timer-section {
-  width: 100%;
+#display {
+  margin-bottom: 20px;
+}
+#display span {
+  font-size: 36px;
+}
+#buttons button:nth-child(2) {
+  margin-left: 8px;
 }
 
-@media only screen and (max-width: 400px) {
-  .App {
-    margin: 5rem auto;
-  }
+button {
+  font-size: 16px;
+  background-color: rgb(217, 60, 35);
+  color: #fff;
+  border-radius: 8px;
+  border: none;
+  padding: 6px 12px;
+  cursor: pointer;
 }
-
-@media only screen and (max-width: 345px) {
-  h1 {
-    font-size: 3rem;
-  }
+button:hover {
+  background-color: rgb(173, 47, 28);
+}
+button:active {
+  background-color: rgb(130, 35, 21);
+}
+button:focus {
+  outline: 0;
 }
