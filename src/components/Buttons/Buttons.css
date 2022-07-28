@@ -10,3 +10,9 @@ button {
     font-size: 1.5rem;
     cursor: pointer;
 }
+
+@media only screen and (max-width: 345px) {
+    button {
+        font-size: 1rem;
+    }
+}

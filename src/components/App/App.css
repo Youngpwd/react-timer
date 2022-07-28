@@ -27,3 +27,9 @@ main {
     margin: 5rem auto;
   }
 }
+
+@media only screen and (max-width: 345px) {
+  h1 {
+    font-size: 3rem;
+  }
+}
