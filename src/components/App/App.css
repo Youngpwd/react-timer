@@ -18,6 +18,10 @@ main {
   margin: 0 auto;
 }
 
+.timer-section {
+  width: 100%;
+}
+
 @media only screen and (max-width: 400px) {
   .App {
     margin: 5rem auto;
