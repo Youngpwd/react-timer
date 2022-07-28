@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+  font-size: 2rem;
+  margin: 20rem auto;
+}
+
+h1 {
+  margin: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  width: 80%;
+  height: auto;
+  padding: 2rem;
+  margin: 0 auto;
+}
+
+
